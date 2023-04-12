@@ -6,7 +6,7 @@ function changeBg(){
     mode.src = "Images/dark.png";
     success.style.opacity = 1;
     success.innerHTML = "Light Mode Applied";
-    var cMode = "Light"
+    cMode = "Light"
     setTimeout(timeout, 2000);
     function timeout()
     {
@@ -14,7 +14,7 @@ function changeBg(){
     };
     }
     else {
-    var cMode = "Dark";
+    cMode = "Dark";
     success.style.opacity = 1;
     success.innerHTML = "Dark Mode Applied";
     document.body.style.backgroundColor = "#121212";
